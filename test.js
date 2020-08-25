@@ -1,22 +1,3 @@
-// export function Pastry(type, flavor, levels, price, occasion) {
-//     this.type = type;
-//     this.flavor = flavor;
-//     this.levels = levels;
-//     this.price = price;
-//     this.occasion = occasion;
-//   }
-  
-// Pastry.prototype.describe = function () {
-//     var description = "The " + this.type + " is a " + this.occasion + "pastry, has a " + this.flavor + " flavor, " + this.levels + " layer(s), and costs " + this.price + ".";
-//     return description;
-//   }
-
-// var muffin = new Pastry("muffin", "blueberry", 1, "$2", "breakfast");
-// var cake = new Pastry("cake", "vanilla", 3, "$10", "birthday");
-
-// console.log(muffin.describe());
-// console.log(cake.describe());
-
 const NodeCache = require("node-cache");
 
 function Cache(cacheName, ttl) {
